@@ -7,7 +7,10 @@ button.onclick = () => {
     .then(function (response) {
       button.textContent = "Next";  
       jokeContent.textContent = response.data.setup;
+      joke.textContent = "";
+      setTimeout(function(){
       joke.textContent = response.data.punchline; 
+      },1000);
     })
     .catch(function (error) {
       console.log(error);
