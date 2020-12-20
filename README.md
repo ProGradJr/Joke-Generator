@@ -7,7 +7,7 @@ Axios CDN:
 https://unpkg.com/axios/dist/axios.min.js
 
 HTML heart code:
-&#9829;
+&#9829
 
 API:
 https://official-joke-api.appspot.com/random_joke
