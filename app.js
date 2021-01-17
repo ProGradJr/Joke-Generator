@@ -10,7 +10,7 @@ button.onclick = () => {
       joke.textContent = "";
       setTimeout(function(){
       joke.textContent = response.data.punchline; 
-      },1000);
+      },5000);
     })
     .catch(function (error) {
       console.log(error);
